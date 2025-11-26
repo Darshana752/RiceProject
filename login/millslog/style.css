@@ -1,0 +1,46 @@
+#btn1{
+    margin-left: 1330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    font-size:medium;
+    background-color: chartreuse;
+    border-color: darkgreen;
+
+}
+
+img{
+    height: 800px;
+    width 1000px;
+}
+
+h1{
+    margin-left: 400px;
+}
+
+textarea{
+    margin-top: 5px;
+    font-size: large;
+}
+
+pre{
+    font-size: 25;
+}
+
+#btn2{
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height:32x;
+    font-size:larger;
+    background-color: chartreuse;
+    border-color: darkgreen;
+}
+
+h2{
+    margin-left: 400px;
+}

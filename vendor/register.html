@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industries & Vendors Registration</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    .b1{
+        background-color: brown;
+        border: none;
+        border-radius: 5px;
+        width: 100px;
+        height: 25px;
+    }
+</style>
+</head>
+<body>
+
+    <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            
+          </ul>
+          <button id="btn3" >DARK MODE</button>
+        </div>
+
+        <img src="shop.jpg" width="1520px" height="800px" />
+      <div class="card-body" style="background-color: black
+    (0, 255, 13, 0.64)">
+        <h5 class="card-title" style="color: black; font-size: 100%">
+
+
+    <!-- Top Background Image -->
+    <div class="header"></div>
+
+    <!-- Green Banner -->
+    <div class="banner">
+        ENTERING DETAILS IS ONLY FOR VENDORS
+    </div>
+    <div class="sub-banner">
+        WE PROTECT THE PRIVACY OF YOUR INFORMATION
+    </div>
+
+    <!-- Registration Form -->
+    <div class="form-container">
+        <form action="vendorregister.php" method="post">
+            <div class="mb-3">
+                <label class="form-label">1. MARKET TYPE:</label>
+                <input type="text" class="form-control" name="type">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">2. REGISTER NUMBER OF THE SHOP:</label>
+                <input type="text" class="form-control" name="Rno">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">3.SHOP OWNER'S NAME:</label>
+                <input type="text" class="form-control" name="vname">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">4.OWNER'S USERNAME:</label>
+                <input type="text" class="form-control" name="username">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">5. SELECT THE DISTRICT (Shop's Location):</label>
+                <select class="form-control" name="district">
+                    <option value="">Select District</option>
+                    <option>COLOMBO</option>
+          <option>KALUTARA</option>
+          <option>GAMPAHA</option>
+          <option>GALLE</option>
+          <option>MATARA</option>
+          <option>HAMABANTOTA</option>
+          <option>KURUNEGALA</option>
+          <option>PUTTALAM</option>
+          <option>ANURADHAPURA</option>
+          <option>POLONNARUWA</option>
+          <option>KANDY</option>
+          <option>NUWARA ELIYA</option>
+          <option>MATALE</option>
+          <option>RATNAPURA</option>
+          <option>TRINCOMALEE</option>
+          <option>VAVUNIYA</option>
+          <option>MULATIVE</option>
+          <option>MONARAGALA</option>
+          <option>MANNAR</option>
+          <option>KILINOCHCHI</option>
+          <option>KEGALLA</option>
+          <option>BATTICALOA</option>
+          <option>BADULLA</option>
+          <option>AMPARA</option>
+          <option>JAFFNA</option>
+                </select>
+            </div>
+    
+            <div class="mb-3">
+                <label class="form-label">6.OWNER'S PHONE NUMBER:</label>
+                <input type="tel" class="form-control" placeholder="07XXXXXXXX" name="phonno">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">7.OWNER'S E-MAIL:</label>
+                <input  class="form-control" placeholder="EX: nimal@gmail.com" name="email">
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label">8. PASSWORD FOR LOGIN SYSTEM:</label>
+                <input type="password" class="form-control" name="password" type="password">
+            </div>
+            <p class="password-note">
+                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+            </p>
+            <button type="submit" class="register-btn" name="submit" value="submit">REGISTER</button>
+            
+        </form>
+        <a href="../first page/OpeningPage.html"><button class="b1">Back</button></a>
+    </div>
+
+</body>
+</html>

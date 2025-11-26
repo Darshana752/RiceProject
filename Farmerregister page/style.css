@@ -1,0 +1,61 @@
+.card-header{
+  background-color: rgb(140, 180, 7);
+}
+.mm1{
+  width: 1520px;
+  background-color: rgb(162, 211, 211);
+  height: 500px;
+  border: 1px solid;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+
+.btn1{
+  margin-left: 1200px;
+  margin-top: 20px;background-color: rgb(3, 93, 24) ;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+.btn1:hover{
+  background-color:rgb(124, 6, 234);
+}
+
+#btn3{
+  float:right;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#btn3:hover{
+  background-color: rgb(92, 103, 103);
+  color: black;
+}
+
+.nav-link{
+  color: blue;
+}
+.dd1{
+  background-color: aqua;
+}
+.btn5{
+  background-color: rgb(243, 7, 7);
+  color: azure;
+  border: none;
+  border-radius: 5px;
+
+}
+.btn5:hover{
+  background-color: rgb(198, 245, 9);
+  color: blue;
+}
+

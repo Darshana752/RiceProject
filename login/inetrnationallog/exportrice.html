@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <style>
+      .nav-tabs {
+        background-color: rgb(174, 255, 0);
+      }
+
+      .nav-link {
+        color: rgb(212, 127, 22);
+        width: 200px;
+      }
+      .nav-link:hover {
+        background-color: rgb(43, 226, 92);
+      }
+      body {
+        background-image: url("hh1.jpg");
+        background-repeat: no-repeat;
+        background-size: 1600px;
+        background-position-y: 60px;
+      }
+      .card-header {
+        background-color: rgb(174, 255, 0);
+      }
+      .btn1 {
+        margin-left: 540px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        width: 300px;
+        height: 40px;
+        background-color: purple;
+        color: white;
+      }
+      .btn1:hover {
+        background-color: rgb(160, 62, 139);
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <div style="text-align: center; color: darkgreen">
+      <h1 style="margin-bottom: 0px; background-color: #6ffd6b">
+        International Organization
+      </h1>
+    </div>
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="afterlogin.php"
+              >Dashboard</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="true"
+              href="#"
+              style="background-color: #0dc025; color: blue"
+              >Export Rice</a
+            >
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="contact.html"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              aria-disabled="true"
+              href="helpintorganization.html"
+              >Help</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <h1 style="text-align: center; margin-top: 20px; color: darkgreen">
+      Export Rice
+    </h1>
+    <div class="mm1" style="margin-top: 30px">
+      <form action="export.php" method="post">
+        <p style="margin-left: 150px; font-size: large">
+          <b>1. Organization Id :</b>
+          <input
+            style="
+              width: 800px;
+              margin-left: 100px;
+              margin-top: 20px;
+              height: 40px;
+              border: none;
+              border-radius: 5px;
+            "
+            name="oid"
+          />
+        </p>
+        <p style="margin-left: 150px; font-size: large">
+          <b>2. Stock Id :</b>
+          <input
+            style="
+              width: 800px;
+              margin-left: 164px;
+              margin-top: 20px;
+              height: 40px;
+              border: none;
+              border-radius: 5px;
+            "
+            name="sid"
+          />
+        </p>
+        <p style="margin-left: 150px; font-size: large">
+          <b>3. Date of Export:</b>
+          <input
+            style="
+              width: 800px;
+              margin-left: 114px;
+              margin-top: 20px;
+              height: 40px;
+              border: none;
+              border-radius: 5px;
+            "
+            name="DoE"
+          />
+        </p>
+        <p style="margin-left: 150px; font-size: large">
+          <b>4. Rice Quantity :</b>
+          <input
+            style="
+              width: 800px;
+              margin-left: 119px;
+              margin-top: 20px;
+              margin-bottom: 30px;
+              height: 40px;
+              border: none;
+              border-radius: 5px;
+            "
+            name="quantity"
+          />
+        </p>
+        <p style="text-align: center">
+          (Please Note that your response can't be edited after once submitted)
+        </p>
+        <button class="btn1" name="submit" value="submit">
+          <b>SUBMIT</b>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

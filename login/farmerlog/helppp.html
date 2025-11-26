@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Help - FAQ Section</title>
+    <style>
+      .nav-tabs {
+        background-color: rgb(174, 255, 0);
+         
+      }
+
+      .nav-link {
+        color: rgb(212, 127, 22);
+        width: 200px;
+      }
+      .nav-link:hover {
+        background-color: rgb(43, 226, 92);
+      }
+      body {
+        background-image: url("hh1.jpg");
+        background-repeat: no-repeat;
+        background-size: 1600px auto; /* Width = 500px, height adjusts automatically */
+        background-position-y: 60px;
+      }
+      .card-header {
+        background-color: rgb(173, 234, 42);
+        
+      }
+
+      .my-5 {
+        background-image: url("hh1.jpg");
+        background-repeat: no-repeat;
+        background-size: 1600px auto; /* Width = 500px, height adjusts automatically */
+        background-position-y: 60px;
+      }
+      .accordion-item {
+        background-image: url("hh1.jpg");
+        background-repeat: no-repeat;
+        background-size: 1600px auto; /* Width = 500px, height adjusts automatically */
+        background-position-y: 60px;
+      }
+      .accordion-header {
+        background-image: url("hh1.jpg");
+        background-repeat: no-repeat;
+        background-size: 1600px auto; /* Width = 500px, height adjusts automatically */
+        background-position-y: 60px;
+        margin-top: 0px;
+      }
+      .mm1 {
+        background-image: url("hh1.jpg");
+        background-repeat: no-repeat;
+        background-size: 1600px auto; /* Width = 500px, height adjusts automatically */
+        background-position-y: 60px;
+        height: 20px;
+        
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <div style="text-align: center; color: darkgreen">
+      <h1 style="margin-bottom: 0px; background-color: #6ffd6b;height: 50px;">Farmer</h1>
+    </div>
+    
+    <div class="card text-center" style="background-color:rgb(185, 255, 33);">
+      <div class="card-header" >
+        <ul class="nav nav-tabs card-header-tabs" >
+          <li class="nav-item">
+            <a class="nav-link" href="afterlogin.php">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AddHarvest.html">Add harvest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="SellHarvest.html">Sell harvest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contac.html">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="active"
+              href="#"
+              style="background-color: #0dc025; color: blue"
+              >Help</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="mm1">
+      <h3 style="background-color: #6ffd6b;">FAQ s</h3>
+      
+      <b>Here are some common questions and answers:</b>
+
+      <div class="container my-5">
+        <div class="accordion" id="faqAccordion">
+          <!-- FAQ 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                🖥️ What information can I see on the Dashboard?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                You can view your recent harvests, sales records, and system
+                notifications on your Dashboard.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                🌾 How can I add my new harvest?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Go to "Add Harvest" tab, fill in the form with your harvest
+                details, and submit it easily.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                🛒 How do I sell my harvest online?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Navigate to "Sell Harvest" and upload your harvest details to
+                the marketplace.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+              >
+                📞 How do I reach customer support if I have a problem?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Use the "Contact" tab to send us a message or call our hotline
+                directly.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+              >
+                🔒 Is my data secure in this system?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Yes! We use secure SSL encryption and follow data protection
+                standards.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+              >
+                📱 Can I use this website on mobile phones?
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Absolutely! The site is responsive and works perfectly on mobile
+                and tablets.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
